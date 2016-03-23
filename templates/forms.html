@@ -1,0 +1,75 @@
+{% extends "blocks.html" %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+
+<!-- this is how CSS blokcs work.  -->
+<!-- place a block of CSS and extends to the 
+website that we need it in, and place it before the head -->
+
+
+<style type="text/css">
+{% block style %}
+
+		.text-align-center{
+			text-align: right;
+			font-size: 16px;
+			padding: 2px;
+
+		}
+
+{% endblock %}
+</style>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="uft-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--<link href="{% static 'css/main.css' %}" rel="stylesheet">-->
+	<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<title>{{ user }}</title>
+</head>
+<body style='background-color: #D8D8D8;'>
+<p></p>
+<h1 class='text-info'> {{ title }} </h1>
+
+<div class='container'>
+<p class="text-info" >
+
+{% block p %}
+<div class='container'>
+<p>it’s very helpful to use this feature during script development. The reports produced by cgitb provide information that can save you a lot of time in tracking down bugs. You can always remove the cgitb line later when you have tested your script and are confident that it works correctly.</p><br>
+
+<p>To get at submitted form data, it’s best to use the FieldStorage class. The other classes defined in this module are provided mostly for backward compatibility. Instantiate it exactly once, without arguments. This reads the form contents from standard input or the environment (depending on the value of various environment variables set according to the CGI standard). Since it may consume standard input, it should be instantiated only once.</p><br>
+
+<p>The FieldStorage instance can be indexed like a Python dictionary. It allows membership testing with the in operator, and also supports the standard dictionary method keys() and the built-in function len(). Form fields containing empty strings are ignored and do not appear in the dictionary; to keep such values, provide a true value for the optional keep_blank_values keyword parameter when creating the FieldStorage instance.</p><br>
+
+<p>For instance, the following code (which assumes that the Content-Type header and blank line have already been printed) checks that the fields name and addr are both set to a non-empty string:</p>
+<br>
+{% endblock %}
+
+</p>
+</div>
+
+
+{% block form %}
+<div class='container-fluid' style="padding-left: 30px;">
+	<div class='col-md-4'>
+		<form method ='POST' action='.'>
+		{% csrf_token %}
+		{{ form|crispy }}
+
+		<input type='submit' value='Sumbit' class ='btn btn-info'>
+
+		</form>
+	</div>
+</div>
+
+{% endblock %}
+</html>

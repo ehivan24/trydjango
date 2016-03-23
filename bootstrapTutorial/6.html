@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width = device-width, initial-scale=1'>
+			
+	<title>Bootstrap Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	</head>	
+	<body>
+
+		<div class="container">
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Favorite Hero
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+				<li class="dropdown-header">Marvel</li>
+				<li><a href="#">SpiderMan</a></li>
+				<li><a href="#">Capitan America</a></li>
+				<li><a href="#">Iron Man</a></li>
+				<li><a href="#">Hulk</a></li>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown-header">DC</li>
+				<li class="disabled"><a href="#">Superman</a></li>
+				<li><a href="#">Batman</a></li>
+				<li><a href="#">Flash</a></li>
+				</ul>
+			</div>
+		</div>
+		<br> 
+		<div class="container" >
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Favorite Hero
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+				<li class="dropdown-header">Marvel</li>
+				<li><a href="#">SpiderMan</a></li>
+				<li><a href="#">Capitan America</a></li>
+				<li><a href="#">Iron Man</a></li>
+				<li><a href="#">Hulk</a></li>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown-header">DC</li>
+				<li class="disabled"><a href="#">Superman</a></li>
+				<li><a href="#">Batman</a></li>
+				<li><a href="#">Flash</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="input-group input-group-lg">
+				<span class="input-group-addon">your Name</span>
+				<input type="text" class="form-control" placeholder="Full Name">
+			</div>
+		<br>
+	</div>
+	<div class="container">
+		<div class="input-group input-group-sm">
+			<span class="input-group-btn">
+				<input type="text" class="form-control" placeholder="Full Name">
+					<button class="btn btn-default">Enter</button>
+				</span>
+			</div><br>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User ID
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Google+</a></li>
+						</ul>
+
+					</div>
+					<input type="text" class="form-control" aria-label="...">
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="input-group">
+					<span class="input-group-addon">
+						<input type="checkbox">
+					</span>
+						<input type="text" class="form-control" placeholder="Electronic signature"> 
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<ul class="list-inline">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Information</a></li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact
+					<span class="caret"></span>
+					<ul class="dropdown-menu">
+						<li><a href="#">Email</a></li>
+						<li><a href="#">Phone</a></li>
+						<li><a href="#">Appointment</a></li>
+					</ul>
+				</a>
+			</li>
+			</ul>
+
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#">Tea</a></li>
+				<li><a href="#">Coffee</a></li>
+				<li><a href="#">Gatorade</a></li>
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				Contact<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+						<li><a href="#">Email</a></li>
+						<li><a href="#">Phone</a></li>
+						<li><a href="#">Appointment</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<ul class="nav nav-pills">
+				<li class="active"><a data-toggle="tab" href="#superman">Superman</a></li>
+				<li><a  data-toggle="tab" href="#batman">Batman</a></li>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					Flash<span class="caret"></span></a>
+					<ul class="dropdown-menu">					
+						<li><a data-toggle="tab" href="#flash">Flash</a></li>
+						<li><a data-toggle="tab" href="#thekidflash"> Kid Flash</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="superman" class="tab-pane fade in active">
+					<p>Superman is a fictional superhero appearing in American comic books published by DC Comics. He was created by writer Jerry Siegel and artist Joe Shuster in 1933</p>
+				</div>
+				<div id="batman" class="tab-pane fade">
+					<p>Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics</p>
+				</div>
+				<div id="flash" class="tab-pane fade">
+					<p>The Flash is a superhero appearing in American comic books published by DC Comics. Created by writer Gardner Fox and artist Harry Lampert, the original Flash first appeared in Flash Comics</p>
+				</div>
+				<div id="thekidflash" class="tab-pane fade">
+					<p>Kid Flash is the name of several fictional characters appearing in comic books published by DC Comics, originally created by John Broome and Carmine Infantino, as a junior counterpart to DC Comics superhero The Flash.</p>
+				</div>
+
+
+			</div>
+		</div>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>

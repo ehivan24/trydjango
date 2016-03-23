@@ -1,0 +1,380 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"img",
+				"img3"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"text",
+				"textWrap"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"b",
+				"body	Tag"
+			],
+			[
+				"h",
+				"head	Tag"
+			],
+			[
+				"m",
+				"meta	Tag"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"s",
+				"style	Tag"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"stat",
+				"static_root"
+			],
+			[
+				"u",
+				"urls"
+			],
+			[
+				"con",
+				"conf"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"fr",
+				"from_email"
+			],
+			[
+				"from",
+				"from_email"
+			],
+			[
+				"f",
+				"full_name"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"U",
+				"Unknown"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"c",
+				"cleaned_data"
+			],
+			[
+				"pro",
+				"provider"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"si",
+				"SignUpForm"
+			],
+			[
+				"S",
+				"SignUpAdmin"
+			],
+			[
+				"try",
+				"trydjango"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"new",
+				"newY"
+			],
+			[
+				"p",
+				"plt"
+			],
+			[
+				"re",
+				"rely"
+			],
+			[
+				"pad",
+				"pady"
+			],
+			[
+				"T",
+				"TopLevel"
+			],
+			[
+				"ke",
+				"keyF"
+			],
+			[
+				"_",
+				"__init__"
+			],
+			[
+				"fun",
+				"func2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "11.html",
+			"settings":
+			{
+				"buffer_size": 2957,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/9.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/10.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/1.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/8.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/7.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/6.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/5.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/2.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/4.html",
+		"/Users/edwingsantos/Desktop/trydjango/bootstrapTutorial/3.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/1.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/header.html",
+		"/Users/edwingsantos/Desktop/trydjango/static_in_pro/our_static/css/main.css",
+		"/Users/edwingsantos/Desktop/trydjango/templates/home.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/current_datetime1.html",
+		"/Users/edwingsantos/Desktop/trydjango/trydjango/settings.py",
+		"/Users/edwingsantos/Desktop/trydjango/trydjango/urls.py",
+		"/Users/edwingsantos/Desktop/trydjango/templates/base.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/footer.html",
+		"/Users/edwingsantos/Desktop/trydjango/newsletter/views.py",
+		"/Users/edwingsantos/Desktop/trydjango/newsletter/models.py",
+		"/Users/edwingsantos/Desktop/trydjango/views.py",
+		"/Users/edwingsantos/Desktop/trydjango/templates/bloks.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/current_datetime.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/newTemplate.html",
+		"/Users/edwingsantos/Desktop/trydjango/templates/404.html",
+		"/Users/edwingsantos/Desktop/trydjango/newsletter/admin.py",
+		"/Users/edwingsantos/Desktop/trydjango/newsletter/forms.py",
+		"/Users/edwingsantos/Desktop/trydjango/templates/forms.html",
+		"/Users/edwingsantos/Desktop/example.txt",
+		"/Users/edwingsantos/Desktop/trydjango/static_in_pro/css/main.css",
+		"/Users/edwingsantos/Desktop/trydjango/newsletter/apps.py",
+		"/Users/edwingsantos/Desktop/mysite/mysite/blog.html",
+		"/Users/edwingsantos/Desktop/myApp/TKinter/2.py",
+		"/Users/edwingsantos/Desktop/text.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "11.html",
+					"settings":
+					{
+						"buffer_size": 2957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2317,
+								2317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 235.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/edwingsantos/Desktop/trydjango/templates/1.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}

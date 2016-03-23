@@ -1,0 +1,44 @@
+body{
+
+	background-color:  #f0f4f5;
+}
+
+p{
+	font-size: 32px;
+	color: navy;
+	margin: 20px 40px 18px 0;
+	margin-left: 20px;
+}
+a{
+
+	color: #26BACF;
+    text-decoration: none;
+}
+a:hover {
+    color: #f16834
+}
+h1{
+    font-size: 43.2px;
+    color: #f16834;
+    line-height: 48px
+}
+p.user{
+			/* user is the class */
+	font-size: 25px;
+	color: navy-blue;
+	margin-left: 50px;
+}
+p.pass{
+			/* user is the class */
+	font-size: 25px;
+	color: navy-blue;
+	margin-left: 50px;
+	padding-left: 5px;
+}
+ul.errorlist{
+
+	font-size: 25px;
+	color: red;
+	margin-left: 30px;
+	padding-left: 5px;
+}

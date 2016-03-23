@@ -1,0 +1,88 @@
+body{
+
+	background-color:  #f0f4f5;
+	font-family: "Lucida Sans", Verdana, sans-serif;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+
+}
+li a {
+    display: inline;
+    width: 60px;
+}
+.menudown{
+	display: inline;
+	padding-left: 10%;
+	font-size: 17px; 
+}
+
+p{
+	font-size: 18px;
+	color: navy;
+	margin: 20px 40px 18px 0;
+	margin-left: 20px;
+	padding: 3px;
+}
+
+.links:link, .links:visited, .links:hover, .links:active{
+
+	text-decoration: none;
+}
+
+.text-align-center{
+	text-align: center;
+}
+.text-align-right{
+
+	text-align: right;
+}
+a{
+	color: #26BACF;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f16834
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 43.2px;
+    color: #f16834;
+    line-height: 48px
+}
+p.user{
+			/* user is the class */
+	font-size: 25px;
+	color: navy-blue;
+	margin-left: 50px;
+}
+p.pass{
+			/* user is the class */
+	font-size: 25px;
+	color: navy-blue;
+	margin-left: 50px;
+	padding-left: 5px;
+}
+ul.errorlist{
+
+	font-size: 25px;
+	color: red;
+	margin-left: 30px;
+	padding-left: 5px;
+}

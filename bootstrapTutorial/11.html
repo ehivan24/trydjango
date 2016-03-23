@@ -1,0 +1,144 @@
+<html>
+    <head>
+    <style type="text/css">
+    body{
+
+        background-color: #D8D8D8;
+    }
+
+    div.frame { background-color: #000; }
+    img.pic {
+      opacity: .6;
+      filter:alpha(opacity=50);
+    }
+    .text{
+        z-index: 100;
+        padding: 3px;
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        left: 20px;
+        top: 0px;
+    }
+    .textP{
+        z-index: 100;
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        left: 100px;
+        top: 2000px;
+    }
+
+    .mainButton {
+       z-index: 100;
+       position: absolute;
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: left;
+      padding: 8px;
+      width: 100px;
+      transition: all 0.10s;
+      cursor: pointer;
+      margin: 5px;
+      left: 590px;
+      top: 380px;
+      font-size: 15px;
+    }
+
+    .mainButton span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .mainButton span:after {
+      content: '>>';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .mainButton:hover span {
+      padding-right: 40px;
+    }
+
+    .mainButton:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    .textWrap{
+        z-index: 100;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        left: 50px;
+        top: 200px;
+    }
+    .img2{
+        -webkit-filter: grayscale(100%);
+        filter:grayscale(100%);
+    }
+    .img3{
+        -webkit-filter: sepia(100%);
+        filter:sepia(100%);
+    }
+    .img4{
+        -webkit-filter: blur(5px);
+        filter:blur(5px);
+    }
+    .test {
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+    }
+    .test p {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 440px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+</style>
+<body>
+
+
+<div class="frame">
+    <img class="pic" src="2.jpg" />
+    <div class="textWrap"><h2 class="text"> Artificial Intelligence</h2>
+        <br><br><br><br>
+       <p clas="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <a href="#" class="mainButton" role="button"><span>Play  </span></a>
+
+
+</div>
+    
+    <img class="img2" src="1.jpg">
+    <img class="img3" src="1.jpg">
+    <img class="img4" src="1.jpg">
+
+    <div class="test">
+    <p>Beautiful image with some text in a box</p>
+    </div>
+    		
+    </body>
+</html>

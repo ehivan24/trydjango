@@ -1,0 +1,114 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="uft-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="{% static 'css/main.css' %}" rel="stylesheet">
+	<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<title>{{ user }}</title>
+
+	<style type="text/css">
+	{% block style %}
+		
+	{% endblock %}
+	</style>
+</head>
+
+<body>
+
+{% if request.user.is_authenticated %}
+	<h1>logged in </h1>
+	<!-- this tag will display if the user is logged in-->
+{% endif %}
+
+<div class="jumbotron">
+	<div class="container">
+		<div class='row'>
+			<div class='col-lg-6 col-md-12 col-sm-12 col-xm-12 '>
+					<h2> Try Django 1.9</h2>
+					<p class='pull-left text-align-center'>it’s very helpful to use this feature during script development. The reports produced by cgitb provide information that can save you a lot of time in tracking down bugs. You can always remove the cgitb line later when you have tested your script and are confident that it works correctly.</p>
+				</div>
+
+				<div class='img-responsive pull-right'>
+					<img src="{% static 'img/computer-programmer.jpg' %}">
+				</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row"> 
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 pull-left">
+			<h2>Welcome</h2>
+			<a href="/contact/" class="btn btn-info"> forms <span><i class="fa fa-home"></i></span> </a> 
+
+			<form method ='POST' action=''>
+				{% csrf_token %}
+				{{ form|crispy }}
+
+
+				<a role='button' class="btn btn-primary" href='.'> <span> Join Us &raquo;</span></a>
+
+			</form>
+		</div>
+			<div class="col-lg-7 col-md-6 col-sm-12 col-xm-12 pull-right">
+				<br>
+				<p>Machine learning is a subfield of computer science that evolved from the study of pattern recognition and computational learning theory in artificial intelligence. In 1959, Arthur Samuel defined machine learning as a "Field of study that gives computers the ability to learn without being explicitly programmed".</p>
+				
+				<p>Unsupervised learning is the machine learning task of inferring a function to describe hidden structure from unlabeled data. Since the examples given to the learner are unlabeled, there is no error or reward signal to evaluate a potential solution. This distinguishes unsupervised learning from supervised learning and reinforcement learning.</p>
+
+				<p>Unsupervised learning is closely related to the problem of density estimation in statistics.[1] However unsupervised learning also encompasses many other techniques that seek to summarize and explain key features of the data. Many methods employed in unsupervised learning are based on data mining methods used to preprocess[citation needed] data.</p>
+
+			</div>
+		</div>
+</div>
+
+
+
+
+<!-- <p> {{ queryset }} </p> -->
+<div class='container'>
+{% if queryset %}
+<table class='table txt-center'>
+<tr> <td>email</td><td> name </td><td> last logged in</td></tr>
+{% for instance in queryset %}
+ <tr><td>{{ instance }}</td><td> {{ instance.full_name }}</td><td>{{ instance.timestamp }} </td></tr>
+ {% endfor %}
+ </table>
+
+{% endif %}
+</div>
+
+
+
+	<div class='container' style='padding-top: 20px; '>
+		<div class='text-info'>
+			{% block p %}
+
+			{% endblock %}
+		</div>
+	</div>
+
+	<div class="jumbotron">
+		<ul>
+			<li class='menudown'><a class='links' href="#"> <span class="fa fa-home"></span> Home </a></li>
+			<li class='menudown'><a class='links' href="#">About </a></li>
+			<li class='menudown'><a class='links' href="#">Contact us </a></li>
+			<li class='menudown'><a class='links' href="#">Jobs </a></li>
+			<li class='menudown'><a class='links' href="#">Blogs </a></li>
+			<li class='menudown'><a href="#" class="links fa fa-paper-plane-o fa-1x">Email</a></li>
+		<ul>
+		<div class='text-align-center'> <span class='fa fa-copyright'></span> All Rights Reserved</div>	
+	</div>
+	
+	</body>
+</html>
+
